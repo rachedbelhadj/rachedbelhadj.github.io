@@ -39,4 +39,9 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
+
+    // add tooltip for li
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 })(jQuery); // End of use strict
